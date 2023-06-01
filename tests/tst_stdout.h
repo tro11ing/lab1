@@ -10,9 +10,7 @@
 
 #include <fcntl.h>
 
-extern "C" {
-#include "myfunc.h"
-}
+
 
 
 #define MAXLINE 1024

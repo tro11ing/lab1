@@ -16,16 +16,12 @@ LIBS += -lgcov
 
 DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 
-HEADERS +=     tst_test1.h \
-    ../app/myfunc.h \
+HEADERS +=     \
     ../app/equation.h \
     ../app/quadratic.h \
-    fibonachi_test.h \
-    quadratic_test.h \
-    tst_stdout.h
+    quadratic_test.h
 
 SOURCES +=     main.cpp \
-    ../app/myfunc.c \
     ../app/quadratic.c
 
 INCLUDEPATH += ../app

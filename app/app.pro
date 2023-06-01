@@ -4,12 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.c \
-    myfunc.c \
     quadratic.c
 
 HEADERS += \
     equation.h \
-    myfunc.h \
     quadratic.h
 
 QMAKE_CFLAGS += -Wall -Wextra -Werror

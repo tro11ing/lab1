@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "myfunc.h"
 #include "quadratic.h"
 #include "equation.h"
 
@@ -12,7 +11,9 @@ int main()
     int b;
     int c;
 
-    assert(scanf("%d %d %d", &a, &b, &c) > 0);
+    if(scanf("%d %d %d", &a, &b, &c) != 3){
+        return 0;
+    }
 
     struct equation e = {a,b,c,0,0,0,0};
 
