@@ -5,9 +5,9 @@
 #include "equation.h"
 
 void quadratic(struct equation *e) {
-    long determinant = e->b * e->b - 4 * e->a * e->c;
+    long discriminant = e->b * e->b - 4 * e->a * e->c;
 
-    if (determinant < 0){
+    if (discriminant < 0){
         e->is_solutions = 0;
     }
     else if (e->a == 0 && e->b == 0){
@@ -27,8 +27,8 @@ void quadratic(struct equation *e) {
             e->x2 = e->x1;
         }
         else{
-            e->x1 = (-1 * e->b + sqrt(determinant))/(2 * e->a);
-            e->x2 = (-1 * e->b - sqrt(determinant))/(2 * e->a);
+            e->x1 = (-1 * e->b + sqrt(discriminant))/(2 * e->a);
+            e->x2 = (-1 * e->b - sqrt(discriminant))/(2 * e->a);
         }
     }
 }
