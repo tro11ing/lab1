@@ -4,4 +4,4 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=tro11ing_lab1&metric=bugs)](https://sonarcloud.io/summary/new_code?id=tro11ing_lab1)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=tro11ing_lab1&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=tro11ing_lab1)
 
-# First lab
+# Программа подсчета корней квадратного уравнения
