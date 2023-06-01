@@ -47,34 +47,4 @@ TEST(quadraticTest, abc) {
     ASSERT_EQ(e.is_solutions,1);
 }
 
-//TEST(quadraticTest, negative) {
-//    ASSERT_EQ(fibonachi(-1), 0);
-//}
-
-//TEST(quadraticTest, inputFile) {
-//    val = 2;
-//    char *filename = (char *)malloc(sizeof(char) * 1024);
-//    sprintf(filename, "%s/input321.txt", INPUTDIR);
-
-//    int fd = open(filename, O_RDONLY);
-//    free(filename);
-//    if (fd < 0) {
-//        ASSERT_EQ(errno, 0);
-//    }
-
-//    char *buf = (char *)malloc(sizeof(char) * 512);
-//    int readcount = read(fd, buf, 512);
-//    ASSERT_TRUE(readcount > 0);
-//    close(fd);
-
-//    int input = 0;
-//    int output =0;
-//    int ret = sscanf(buf, "%d %d", &input, &output);
-//    free(buf);
-//    ASSERT_EQ(ret, 2);
-
-//    ret = fibonachi(input);
-//    ASSERT_EQ(ret, output);
-//}
-
 #endif // QUADRATIC_H
