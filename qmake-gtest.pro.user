@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2023-02-15T16:49:27. -->
+<!-- Written by QtCreator 6.0.2, 2023-04-07T11:38:50. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -69,10 +69,15 @@
    </valuemap>
    <valuemap type="QVariantMap" key="AutoTest.CheckStates">
     <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/fibonachi_test.h:fibonachiTest">Checked</value>
-    <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/fibonachi_test.h:greather2">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/fibonachi_test.h:greater2">Checked</value>
     <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/fibonachi_test.h:inputFile">Checked</value>
     <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/fibonachi_test.h:negative">Checked</value>
     <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/fibonachi_test.h:num0">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/quadratic_test.h:greather2">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/quadratic_test.h:inputFile">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/quadratic_test.h:negative">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/quadratic_test.h:num0">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/quadratic_test.h:quadraticTest">Checked</value>
     <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/tst_stdout.h:TestStdOut">Checked</value>
     <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/tst_stdout.h:usingCapture">Checked</value>
     <value type="Qt::CheckState" key="1@/home/tro11ing/2sem/dev/lab1/gtest/tests/tst_test1.h:suite1">Checked</value>

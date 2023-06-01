@@ -1,6 +1,8 @@
 #ifndef QUADRATIC_H
 #define QUADRATIC_H
 
-void quadratic();
+#include "equation.h"
 
-#endif // MYFUNC_H
+void quadratic(struct equation *e);
+
+#endif // QUADRATIC_H

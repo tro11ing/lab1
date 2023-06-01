@@ -7,9 +7,10 @@ struct equation{
     int c;
 
     int is_solutions;
+    int infinity;
 
     double x1;
     double x2;
 };
 
-#endif // MYFUNC_H
+#endif // EQUATION_H
